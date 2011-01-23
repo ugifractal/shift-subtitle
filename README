@@ -1,0 +1,17 @@
+You have movies?
+You found subtitle from net?
+
+Then playing them, but dissapointed when the subtitle text show late.
+This is a simple script to change the timing on subtitle, so you can synchronize the text and the audio.
+
+Usage:
+ruby shift_subtitle.rb --delay your_delay_time --file your_srt_file
+
+sample:
+You have a subtitle, but the text is late about 30 secon, so how to change the subtitle?
+Here is the command:
+
+ruby shift_subtitle.rb --delay -30 --file ice_age.srt > ice_age_fixed.srt
+
+
+That is :) enjoy watching the movie! 
